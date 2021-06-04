@@ -18,10 +18,22 @@ const Container = styled.div`
     }
 `
 
+const Icon = styled.span`
+    
+`
+
+const Title = styled.h1`
+    color: ${props => props.active ? props.theme.activeMenu : "#AAA5A5"};
+    font-size: 0.9rem;
+    margin-right: 1rem;
+    font-weight: 300;
+`
+
 const MenuItem = ({ title, active, icon }) => {
     return (
         <Container active={active}>
-            item
+            <Icon className="iconify" data-inline="false" data-icon={`mdi-light:${icon}`}></Icon>
+            <Title active={active}>{title}</Title>
         </Container>
     )
 }

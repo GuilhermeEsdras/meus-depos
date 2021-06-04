@@ -20,7 +20,7 @@ const Profile = () => {
     return (
         <Container>
             <ProfileImg src={Image} />
-            <ProfileName>Guilherme Esdras</ProfileName>
+            <ProfileName>Guilherme</ProfileName>
         </Container>
     )
 }
