@@ -4,6 +4,8 @@ import Nav from './Nav'
 import NewDepositBtn from './NewDepositBtn'
 import Deposits from './Deposits/Deposits'
 
+import depositData from '../../DepositData.json'
+
 const Container = styled.div`
     width: auto;
     margin-left: 16rem;
@@ -16,8 +18,8 @@ const Main = () => {
         <Container>
             <Nav />
             <NewDepositBtn />
-            <Deposits title="Depósitos" count={2} data={} />
-            <Deposits title="Depósitos" count={2} data={} />
+            <Deposits title="Depósitos Ativos" count={2} data={depositData.active} />
+            <Deposits title="Depósitos Fechados" count={2} data={depositData.closed} />
         </Container>
     )
 }
