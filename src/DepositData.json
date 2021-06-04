@@ -1,0 +1,86 @@
+{
+    "active": [
+        {
+            "property": {
+                "address": {
+                    "street": "Rua Ativa 1 21",
+                    "city": "Cidade Ativa 1",
+                    "state": "PB"
+                },
+                "imageUrl": "lostround.png"
+            },
+            "moveInData": "25 Janeiro 2021",
+            "rent": 3000.00,
+            "deposit": {
+                "amount": 9000.00,
+                "type": "Primeiro, Último & Segurança"
+            },
+            "status": {
+                "message": "Aguardando Processamento do Banco",
+                "level": 2
+            }
+        },
+        {
+            "property": {
+                "address": {
+                    "street": "Rua Ativa 2 32",
+                    "city": "Cidade Ativa 2",
+                    "state": "SP"
+                },
+                "imageUrl": "jaggedarbor.png"
+            },
+            "moveInData": "4 Março 2021",
+            "rent": 2500.00,
+            "deposit": {
+                "amount": 4800.00,
+                "type": "Primeiro & Último"
+            },
+            "status": {
+                "message": "Pagamento Processado",
+                "level": 3
+            }
+        }
+    ],
+    "closed": [
+        {
+            "property": {
+                "address": {
+                    "street": "Rua Closed 1 51",
+                    "city": "Cidade Closed 1",
+                    "state": "CE"
+                },
+                "imageUrl": "noblecape.png"
+            },
+            "moveInData": "9 Fevereiro 2021",
+            "rent": 2000.00,
+            "deposit": {
+                "amount": 6200.00,
+                "type": "Completo"
+            },
+            "status": {
+                "message": "Aguardando Processamento do Banco",
+                "level": 3
+            }
+        },
+        {
+            "property": {
+                "address": {
+                    "street": "Rua Closed 2 72",
+                    "city": "Cidade Closed 2",
+                    "state": "BA"
+                },
+                "imageUrl": "tawnymaze.png"
+            },
+            "moveInData": "12 Maio 2021",
+            "rent": 2500.00,
+            "deposit": {
+                "amount": 4800.00,
+                "type": "Primeiro, Último & Segurança"
+            },
+            "status": {
+                "message": "Expirado: Nenhum Pagamento Recebido",
+                "level": 1
+            }
+        }
+    ]
+}

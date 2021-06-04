@@ -19,7 +19,9 @@ const Container = styled.div`
 `
 
 const Icon = styled.span`
-    
+    color: ${props => props.active ? props.theme.activeMenu : "#AAA5A5"};
+    font-size: 1rem;
+    margin-right: 1rem;
 `
 
 const Title = styled.h1`
