@@ -3,7 +3,6 @@ import styled from 'styled-components'
 import Nav from './Nav'
 import NewDepositBtn from './NewDepositBtn'
 import Deposits from './Deposits/Deposits'
-
 import depositData from '../../DepositData.json'
 
 const Container = styled.div`
@@ -19,7 +18,7 @@ const Main = () => {
             <Nav />
             <NewDepositBtn />
             <Deposits title="Depósitos Ativos" count={2} data={depositData.active} />
-            <Deposits title="Depósitos Fechados" count={2} data={depositData.closed} />
+            <Deposits title="Depósitos Fechados" count={8} data={depositData.closed} />
         </Container>
     )
 }

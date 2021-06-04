@@ -10,13 +10,14 @@ const AddButton = styled.a`
     height: 50px;
     border-radius: 25px;
     position: absolute;
-    top: 6rem;
+    top: 5rem;
     right: 7rem;
     cursor: pointer;
 `
 
 const AddIcon = styled.span`
-
+    color: #fff;
+    font-size: 30px;
 `
 
 const NewDepositBtn = () => {

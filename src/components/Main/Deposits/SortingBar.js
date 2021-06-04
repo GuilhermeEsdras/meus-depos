@@ -9,13 +9,42 @@ const Container = styled.div`
     border-radius: 5px;
 `
 
+const Text = styled.div`
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: ${({ theme }) => theme.textColor};
+`
 
+const Property = styled(Text)`
+    width: 30%;
+`
+
+const MoveInDate = styled(Text)`
+    width: 15%;
+`
+
+const Rent = styled(Text)`
+    width: 10%;
+`
+
+const Deposit = styled(Text)`
+    width: 15%;
+`
+
+const Status = styled(Text)`
+
+`
 
 const SortingBar = () => {
     return (
-        <div>
-            
-        </div>
+        <Container>
+            <Property>Propriedade</Property>
+            <MoveInDate>Data de Movimentação</MoveInDate>
+            <Rent>Renda</Rent>
+            <Deposit>Depósito</Deposit>
+            <Status>Status</Status>
+        </Container>
     )
 }
 

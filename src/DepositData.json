@@ -7,7 +7,7 @@
                     "city": "Cidade Ativa 1",
                     "state": "PB"
                 },
-                "imageUrl": "lostround.png"
+                "imageUrl": "propriedade1.png"
             },
             "moveInData": "25 Janeiro 2021",
             "rent": 3000.00,
@@ -27,7 +27,7 @@
                     "city": "Cidade Ativa 2",
                     "state": "SP"
                 },
-                "imageUrl": "jaggedarbor.png"
+                "imageUrl": "propriedade2.png"
             },
             "moveInData": "4 Março 2021",
             "rent": 2500.00,
@@ -49,7 +49,7 @@
                     "city": "Cidade Closed 1",
                     "state": "CE"
                 },
-                "imageUrl": "noblecape.png"
+                "imageUrl": "propriedade3.png"
             },
             "moveInData": "9 Fevereiro 2021",
             "rent": 2000.00,
@@ -69,7 +69,7 @@
                     "city": "Cidade Closed 2",
                     "state": "BA"
                 },
-                "imageUrl": "tawnymaze.png"
+                "imageUrl": "propriedade4.png"
             },
             "moveInData": "12 Maio 2021",
             "rent": 2500.00,
